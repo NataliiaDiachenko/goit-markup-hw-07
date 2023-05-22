@@ -19,11 +19,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.navigation__menu {
-  display: flex;
-  align-items: center;
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .navigation__list {

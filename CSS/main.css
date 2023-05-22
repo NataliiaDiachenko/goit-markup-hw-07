@@ -311,7 +311,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .navigation__menu {
   display: flex;
   align-items: center;
@@ -924,7 +923,9 @@
   transition: transform 200ms linear;
   overflow: auto;
 }
-.projects-link:hover .projects-top-text, .projects-link:focus .projects-top-text {
+
+.projects__link:hover .projects-top-text,
+.projects__link:focus .projects-top-text {
   transform: translateY(0);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
